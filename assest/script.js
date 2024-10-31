@@ -53,8 +53,8 @@ function scrollFunction(){
 }
 
 function scrollToTop(){
-    const scrollbackToTopBtn = document.documentElement || document.body;
-    scrollbackToTopBtn.scrollIntoview({
+    const scrollToTopBtn = document.documentElement || document.body;
+    scrollToTopBtn.scrollIntoView({
         behavior: 'smooth'
     })
 }
