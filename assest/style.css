@@ -1375,14 +1375,14 @@ footer {
 
     .cover-name .cover h1{
         font-size: 2.3rem;
-        margin-bottom: 1.4rem;
+        margin-bottom: 1.2rem;
         
     }
     
     .cover-name .cover p {
         font-size: 1rem;
         color: #fff;
-        margin-bottom: 20rem;
+        margin-bottom: 35rem;
     }
 
     .feature .flex{
@@ -1412,7 +1412,7 @@ footer {
     
     .card{
         margin-top: 1%;
-        width: 18%;
+        width: 12%;
         margin-left: 3px;
     }
     
@@ -1685,19 +1685,19 @@ footer {
     .content{
         border-top: 1px solid;
         padding: 1rem 8rem;
-        
+        margin: 0 0;
     }
     
     .content p{
-        font-size: 1.3rem;
+        font-size: 1rem;
         color: #7f8c8d;
-        justify-content: flex-start;
+        justify-content: center;
     }
     
     .content p i{
         color: red;
-        padding-right: 5px;
-        margin: 0 .5rem;
+        padding-right: -2px;
+        margin: 0 .2;
     }
     
     .content a{
@@ -1707,8 +1707,8 @@ footer {
     
     .content-1 h4{
         color: #fff;
-        font-size: 2rem;
-        padding: 2rem;
+        font-size: 1.5rem;
+        padding: .8 -1rem;
     }
     
     .copyright{
@@ -1716,8 +1716,8 @@ footer {
     }
     
     .copyright img{
-        margin: 0 5rem;
-        width: 50%;
+        margin: 0 2rem;
+        width: 70%;
     }
     
     
