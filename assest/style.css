@@ -39,9 +39,9 @@ html{
 }
 
 #bar{
-    color:  rgba(#471133 0%, #140921 100%);
+    color:  whitesmoke;
     font-weight: lighter;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     display: none;
 }
 
@@ -146,8 +146,8 @@ html{
     cursor: pointer;
 }
 
-.card div:hover{
-    transform: scale(1.1);
+.card:hover{
+    transform: scale(1.05);
     transition: all 0.4s ease;
 }
 
@@ -1388,6 +1388,7 @@ footer {
     .feature .flex{
         --bs-gutter-x: .8rem;
         margin: 0 20px;
+        
     }
 
     
@@ -1399,19 +1400,37 @@ footer {
     padding: 10px 15px;
     transition: all 0.4s ease;
     box-shadow: rgb(184, 206, 230) 0px 20px 30px -10px;
+    display: block;
+    flex-direction: column;
     cursor: pointer;
-}
+    }
+
+    .card:hover, .card div{
+        transform: scale(1.1);
+        transition: all 0.4s ease;
+    }
     
     .card{
         margin-top: 1%;
-        width: 20%;
-        margin-left: 2px;
-
+        width: 18%;
+        margin-left: 3px;
     }
     
     .card h4{
         width: 146px;
         letter-spacing: 1px;
+    }
+
+    .card:nth-child(2){
+        transition-delay: 200ms;
+    }
+    
+    .card:nth-child(3){
+        transition-delay: 400ms;
+    }
+    
+    .card:nth-child(4){
+        transition-delay: 600ms;
     }
     
     .clients{
